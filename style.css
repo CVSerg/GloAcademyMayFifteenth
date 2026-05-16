@@ -54,9 +54,126 @@ nav {
   white-space: nowrap;
 }
 
-header {
+.nav-bar {
   display: flex;
   align-items: center;
   padding-top: 35px;
   padding-bottom: 25px;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url(/imgs/bg.jpg) no-repeat center top / cover;
+}
+
+.film {
+  color: white;
+}
+
+.film-title-small {
+  opacity: 0.5;
+}
+
+.film {
+  display: flex;
+}
+
+.film-button {
+  border: 1px solid green;
+  display: flex;
+  margin: auto;
+}
+
+.movie-description {
+  max-width: 500px;
+  line-height: 150%;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.time img {
+  padding-right: 16px;
+}
+
+.rating {
+  font-size: 24px;
+}
+
+.rating img {
+  padding-right: 16px;
+  margin-left: 40px;
+}
+
+.details {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.session {
+  padding-top: 46px;
+  padding-bottom: 63px;
+  border-top: 0.5px white solid;
+  border-bottom: 0.5px white solid;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.session-date-block {
+  display: flex;
+}
+
+.session-date-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  width: 98px;
+  height: 98px;
+  justify-content: center;
+  margin-right: 15px;
+  margin-top: 1rem;
+  transition: background-color 0.1s;
+  padding: 2px 2px 2px 2px;
+}
+
+.session-month {
+  font-size: 18px;
+  line-height: 20px
+}
+
+.session-date {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.session-week {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.session-date-item:hover {
+  background-color: #fe8e05;
+  cursor: pointer;
+  color: #621402;
+}
+
+select {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: white;
+  padding: 18px;
+  min-width: 250px;
 }

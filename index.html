@@ -13,35 +13,126 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
+  <header class="container">
+    <div class="nav-bar container">
+      <a href="/">
+        <img src="imgs/logo.svg" alt="an icon logo">
+      </a>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Фильмы</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Кинотеатр</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">События</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Поддержка</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user">
+        <span class="text">Someone's name</span>
+        <img class="emoji" src="/imgs/all-right-emoji-illustration_23-2151298395.avif" alt="">
+      </div>
+      <script src="script.js"></script>
+    </div>
+    <div class="film">
+      <div class="film-info">
+        <small class="film-title-small">Avengers: Infinity War</small>
+        <h1>Мстители: война бесконечности</h1>
+        <p class="movie-description">Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с
+          которыми не смог бы справиться
+          один супергерой, новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все
+          шесть Камней Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по своему
+          желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли никогда ещё не была столь
+          неопределённой.
+        </p>
+        <div class="details">
+          <div class="time">
+            <img src="/imgs/clock 1.svg" alt="time-clock">
+            <span class="time-counter">240 min</span>
+          </div>
+          <div class="rating">
+            <img src="/imgs/imdb.png" alt="IMOB logo">
+            <span>
+              <span><strong>9.3</strong>\10</span>
+            </span>
+          </div>
+        </div>
+
+      </div>
+      <div class="film-button">
+        <a href="#" class="film-trailer"><svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="white" />
+            <g clip-path="url(#clip0_1_158)">
+              <path
+                d="M43.0758 30.0033C39.3071 27.8416 36.2518 29.6125 36.2518 33.9556V66.0059C36.2518 70.3533 39.3071 72.1219 43.0758 69.9623L71.0893 53.8967C74.8592 51.7342 74.8592 48.2306 71.0893 46.0686L43.0758 30.0033Z"
+                fill="#F20D01" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_158">
+                <rect width="41.8013" height="41.8013" fill="white" transform="translate(34.1837 29.0816)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="session">
+      <div class="wrapper">
+        <div class="data">
+          <span class="session-lable">Дата</span>
+          <div class="session-date-block">
+            <div class="session-date-item">
+              <span class="session-month">April</span>
+              <span class="session-date">27</span>
+              <span class="session-week">Wed</span>
+            </div>
+            <div class="session-date-item">
+              <span class="session-month">April</span>
+              <span class="session-date">27</span>
+              <span class="session-week">Mo</span>
+            </div>
+            <div class="session-date-item">
+              <span class="session-month">April</span>
+              <span class="session-date">28</span>
+              <span class="session-week">Fr</span>
+            </div>
+            <div class="session-date-item">
+              <span class="session-month">April</span>
+              <span class="session-date">29</span>
+              <span class="session-week">Sat</span>
+            </div>
+          </div>
+        </div>
+        <div class="place">
+          <span class="session-lable">Кинотеатр</span>
+          <select name="movies-places">
+            <option value="street1">Street 1</option>
+            <option value="street3">Street 3</option>
+            <option value="street4">Street 4</option>
+          </select>
+        </div>
+        <div class="session-time">
+          <span class="session-lable">Время</span>
+          <select name="movies-places">
+            <option value="15:50">15:50</option>
+            <option value="13:50">13:50</option>
+            <option value="00:00">00:00</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
 </body>
-<header class="container">
-  <a href="/">
-    <img src="imgs/logo.svg" alt="an icon logo">
-  </a>
-  <nav>
-    <ul class="menu">
-      <li class="menu-item">
-        <a href="#">Главная</a>
-      </li>
-      <li class="menu-item">
-        <a href="#">Фильмы</a>
-      </li>
-      <li class="menu-item">
-        <a href="#">Кинотеатр</a>
-      </li>
-      <li class="menu-item">
-        <a href="#">События</a>
-      </li>
-      <li class="menu-item">
-        <a href="#">Поддержка</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="user">
-    <span class="text">Someone's name</span>
-    <img class="emoji" src="/imgs/all-right-emoji-illustration_23-2151298395.avif" alt="">
-  </div>
-</header>
 
 </html>
